@@ -1,0 +1,46 @@
+{
+  "name": "food-diliver",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.1",
+    "@magiclabs/ui": "^0.27.4",
+    "@react-oauth/google": "^0.12.1",
+    "apexcharts": "^4.3.0",
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "formik": "^2.4.6",
+    "google-auth-library": "^9.15.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwk-to-pem": "^2.0.7",
+    "lucide-react": "^0.469.0",
+    "magicui-cli": "^0.1.6",
+    "mongoose": "^8.9.2",
+    "next": "15.1.2",
+    "next-auth": "^4.24.11",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-google-login": "^5.2.2",
+    "react-hook-form": "^7.54.2",
+    "react-icons": "^5.4.0",
+    "react-toastify": "^11.0.2",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.2",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
